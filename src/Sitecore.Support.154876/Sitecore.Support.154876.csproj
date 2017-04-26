@@ -72,14 +72,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.154876.config" />
-    <Content Include="bin\Facebook.dll" />
-    <Content Include="bin\Newtonsoft.Json.dll" />
-    <Content Include="bin\Sitecore.Social.Facebook.dll" />
-    <Content Include="bin\Sitecore.Social.Infrastructure.dll" />
-    <Content Include="bin\Sitecore.Social.NetworkProviders.dll" />
-    <Content Include="bin\Sitecore.Support.154876.dll" />
-    <Content Include="bin\Sitecore.Support.154876.dll.config" />
-    <Content Include="bin\Sitecore.Support.154876.pdb" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
