@@ -23,7 +23,7 @@ namespace Sitecore.Support.Social.Facebook.Networks.Providers
     {
     }
 
-     void IAuth.AuthGetAccessToken(AuthArgs args)
+    void IAuth.AuthGetAccessToken(AuthArgs args)
     {
       HttpRequest request = HttpContext.Current.Request;
       if (string.IsNullOrEmpty(request.QueryString.Get("error")))
