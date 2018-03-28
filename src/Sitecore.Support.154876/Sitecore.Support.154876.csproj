@@ -40,24 +40,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Facebook">
+    <Reference Include="">
       <HintPath>..\..\lib\Facebook.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\SC.Newtonsoft.Json.7.5.0\lib\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\SC.Newtonsoft.Json.8.0.0\lib\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\packages\SC.Sitecore.Kernel.7.5.0\lib\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Kernel.8.0.0\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Social.Facebook">
+    <Reference Include="">
       <HintPath>..\..\lib\Sitecore.Social.Facebook.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Social.Infrastructure">
+    <Reference Include="">
       <HintPath>..\..\lib\Sitecore.Social.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Social.NetworkProviders">
+    <Reference Include="">
       <HintPath>..\..\lib\Sitecore.Social.NetworkProviders.dll</HintPath>
     </Reference>
     <Reference Include="System" />
