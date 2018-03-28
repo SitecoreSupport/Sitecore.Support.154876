@@ -40,8 +40,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="">
-      <HintPath>..\..\lib\Facebook.dll</HintPath>
+    <Reference Include="Facebook, Version=5.4.1.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Facebook.8.0.0\lib\Facebook.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\SC.Newtonsoft.Json.8.0.0\lib\Newtonsoft.Json.dll</HintPath>
@@ -51,14 +52,21 @@
       <HintPath>..\packages\SC.Sitecore.Kernel.8.0.0\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="">
-      <HintPath>..\..\lib\Sitecore.Social.Facebook.dll</HintPath>
+    <Reference Include="Sitecore.Social, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Social.8.0.0\lib\Sitecore.Social.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="">
-      <HintPath>..\..\lib\Sitecore.Social.Infrastructure.dll</HintPath>
+    <Reference Include="Sitecore.Social.Facebook, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Social.Facebook.8.0.0\lib\Sitecore.Social.Facebook.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="">
-      <HintPath>..\..\lib\Sitecore.Social.NetworkProviders.dll</HintPath>
+    <Reference Include="Sitecore.Social.Infrastructure, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Social.Infrastructure.8.0.0\lib\Sitecore.Social.Infrastructure.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Social.NetworkProviders, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SC.Sitecore.Social.NetworkProviders.8.0.0\lib\Sitecore.Social.NetworkProviders.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
